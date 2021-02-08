@@ -1,6 +1,20 @@
 RankELM
 ===========================
 
+## Citation
+If you use the codes, please cite the following paper:
+```
+@inproceedings{chen2018flexible,
+  title={Flexible ranking extreme learning machine based on matrix-centering transformation},
+  author={Chen, Shizhao and Chen, Kai and Xu, Chuanfu and Lan, Long},
+  booktitle={2018 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+## Overview
 RankELM is a ranking algorithm based on ELM and matrix-centering transformation. Query-level normalized loss function is used to avoid training a bias model. Matrix-centering transformation is used to optimize the loss function. The transformation greatly simplifies the learning process because of the symmetry and idempotence of centering matrix.
 
 We implement three different kinds of ranking ELM algorithms based on the matrix-centering transformation:
